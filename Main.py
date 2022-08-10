@@ -35,7 +35,7 @@ class MyCircularQueue:
 
     def get_rear(self):
         if not self.is_empty():
-            return self.queue[self.front]
+            return self.queue[self.rear]
         return -1
 
     def is_empty(self):
